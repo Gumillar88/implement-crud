@@ -84,12 +84,15 @@ Fitur Proyek
 <p>
 Daftar Produk: Menampilkan daftar produk yang ada.    
 </p>
+<p>
 Tambah Produk: Formulir untuk menambah produk baru.
-<br>
+</p>
+<p>
 Edit Produk: Formulir untuk mengedit informasi produk.
-<br>
+</p>
+<p>
 Hapus Produk: Menghapus produk dari database.
-<br>
+</p>
 3. Pesanan Produk
 Formulir Pesanan: Menambahkan pesanan produk dengan jumlah yang dipilih.
 Perhitungan Otomatis: Menghitung total harga pesanan berdasarkan jumlah produk.
