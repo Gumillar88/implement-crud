@@ -78,14 +78,17 @@ Beranda: http://127.0.0.1:8000/
 Daftar Produk: http://127.0.0.1:8000/products
 Tambah Pesanan: http://127.0.0.1:8000/orders/create
 Catatan: Halaman http://127.0.0.1:8000/orders tidak ada dan akan dialihkan ke halaman create.
-
+<br>
 Fitur Proyek
 1. CRUD Produk
 Daftar Produk: Menampilkan daftar produk yang ada.
+<br>
 Tambah Produk: Formulir untuk menambah produk baru.
+<br>
 Edit Produk: Formulir untuk mengedit informasi produk.
+<br>
 Hapus Produk: Menghapus produk dari database.
-
+<br>
 2. Pesanan Produk
 Formulir Pesanan: Menambahkan pesanan produk dengan jumlah yang dipilih.
 Perhitungan Otomatis: Menghitung total harga pesanan berdasarkan jumlah produk.
