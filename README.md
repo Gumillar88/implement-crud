@@ -98,8 +98,18 @@ Formulir Pesanan: Menambahkan pesanan produk dengan jumlah yang dipilih.
 Perhitungan Otomatis: Menghitung total harga pesanan berdasarkan jumlah produk.
 
 4. DataTables
+<p>
 Tabel Dinamis: Menggunakan DataTables untuk menampilkan data pembelian dengan fitur pencarian, pengurutan, dan paginasi.
+</p>
+<p>
 Stack Teknologi
+</p>
+<p>
 Backend: Laravel 11
+</p>
+<p>
 Database: MySQL atau SQLite
-Frontend: Bootstrap 5, jQuery, DataTables
+</p>
+<p>
+    Frontend: Bootstrap 5, jQuery, DataTables
+</p>
