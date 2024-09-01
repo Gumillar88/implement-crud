@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-4">
         <a class="navbar-brand" href="#">My App</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">

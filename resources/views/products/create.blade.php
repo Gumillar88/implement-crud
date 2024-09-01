@@ -19,7 +19,12 @@
         </div>
         <div class="mb-3">
             <label for="category" class="form-label">Kategori Produk</label>
-            <input type="text" class="form-control" id="category" name="category" required>
+            <select class="form-select" id="category" name="category" required>
+                <option value="" disabled selected>Pilih Kategori</option>
+                @foreach($categories as $category)
+                <option value="{{ $category->id }}">{{ $category->name }}</option>
+                @endforeach
+            </select>
         </div>
         <button type="submit" class="btn btn-primary">Simpan</button>
     </form>

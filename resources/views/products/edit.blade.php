@@ -22,8 +22,14 @@
         </div>
         <div class="mb-3">
             <label for="category" class="form-label">Kategori Produk</label>
-            <input type="text" class="form-control" id="category" name="category" value="{{ $product->category }}"
-                required>
+            <select class="form-select" id="category" name="category" required>
+                <option value="" disabled>Pilih Kategori</option>
+                @foreach($categories as $category)
+                <option value="{{ $category->id }}" {{ $product->category_id == $category->id ? 'selected' : '' }}>
+                    {{ $category->name }}
+                </option>
+                @endforeach
+            </select>
         </div>
         <button type="submit" class="btn btn-primary">Update</button>
     </form>
