@@ -23,6 +23,11 @@ class OrderController extends Controller
         return view('orders.index');
     }
 
+    public function orderRender()
+    {
+        return redirect('/orders/create');
+    }
+
     public function create()
     {
         $products = Product::all();

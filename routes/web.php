@@ -10,4 +10,5 @@ Route::get('/', function () {
 
 Route::resource('products', ProductController::class);
 Route::resource('orders', OrderController::class)->only(['create', 'store', 'show']);
+Route::get('orders/', [OrderController::class, 'orderRender'])->name('orders.render');
 Route::get('orders/datatables', [OrderController::class, 'index'])->name('orders.datatables');
