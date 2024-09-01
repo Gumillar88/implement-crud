@@ -81,19 +81,20 @@ Catatan: Halaman http://127.0.0.1:8000/orders tidak ada dan akan dialihkan ke ha
 <br>
 Fitur Proyek
 1. CRUD Produk
-Daftar Produk: Menampilkan daftar produk yang ada.
-<br>
+<p>
+Daftar Produk: Menampilkan daftar produk yang ada.    
+</p>
 Tambah Produk: Formulir untuk menambah produk baru.
 <br>
 Edit Produk: Formulir untuk mengedit informasi produk.
 <br>
 Hapus Produk: Menghapus produk dari database.
 <br>
-2. Pesanan Produk
+3. Pesanan Produk
 Formulir Pesanan: Menambahkan pesanan produk dengan jumlah yang dipilih.
 Perhitungan Otomatis: Menghitung total harga pesanan berdasarkan jumlah produk.
 
-3. DataTables
+4. DataTables
 Tabel Dinamis: Menggunakan DataTables untuk menampilkan data pembelian dengan fitur pencarian, pengurutan, dan paginasi.
 Stack Teknologi
 Backend: Laravel 11
